@@ -1,0 +1,12 @@
+[
+  {
+    "title": "rdf:langString",
+    "desc": "Example with rdf:langString",
+    "schemaURL": "rdfLangString.shex",
+    "schemaFormat": "ShExC",
+    "layoutURL": "empty.ttl",
+    "dataURL": "rdfLangString.ttl",
+    "node": "http://example.org/uni",
+    "shape": "http://example.org/Uni"
+  }
+]
