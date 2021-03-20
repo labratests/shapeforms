@@ -10,12 +10,22 @@
     "shape": "http://example.org/Uni"
   },
   {
-    "title": "2properties",
+    "title": "2 Properties",
     "desc": "2 properties that are not shown",
     "schemaURL": "2properties.shex",
     "schemaFormat": "ShExC",
     "layoutURL": "empty.ttl",
     "dataURL": "2properties.ttl",
+    "node": "http://example.org/alice",
+    "shape": "http://example.org/User"
+  },
+  {
+    "title": "recursion",
+    "desc": "recursion",
+    "schemaURL": "recursion.shex",
+    "schemaFormat": "ShExC",
+    "layoutURL": "empty.ttl",
+    "dataURL": "recursion.ttl",
     "node": "http://example.org/alice",
     "shape": "http://example.org/User"
   }

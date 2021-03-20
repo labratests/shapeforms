@@ -1,0 +1,13 @@
+PREFIX ui: <http://www.w3.org/ns/ui#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix : <http://example.org/>
+
+:alice :name "Alice" ;
+ :knows :bob, :carol .
+:bob :name "Robert" ;
+ :knows :dave .
+:carol :name "Carole" ;
+ :knows :alice .
+:dave :name "Dave" ;
+ :knows :dave .
+
