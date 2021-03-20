@@ -8,5 +8,15 @@
     "dataURL": "rdfLangString.ttl",
     "node": "http://example.org/uni",
     "shape": "http://example.org/Uni"
+  },
+  {
+    "title": "2properties",
+    "desc": "2 properties that are not shown",
+    "schemaURL": "2properties.shex",
+    "schemaFormat": "ShExC",
+    "layoutURL": "empty.ttl",
+    "dataURL": "2properties.ttl",
+    "node": "http://example.org/alice",
+    "shape": "http://example.org/User"
   }
 ]

@@ -1,0 +1,15 @@
+PREFIX ui: <http://www.w3.org/ns/ui#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix : <http://example.org/>
+
+start=@:User
+
+:User {
+  :name     xsd:string ;
+  :father @:Person   ;
+  :mother @:Person
+}
+
+:Person {
+  :name xsd:string
+}
